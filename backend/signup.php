@@ -26,7 +26,7 @@
 
 	if ($name==null ||  $email==null || $phone==null || $address==null || $password==null || $cpassword==null || $profile['size']==0) {
 		
-		if ($profile['size']==o) {
+		if ($profile['size']==0) {
 			$_SESSION['profile_error_msg']="User Profile is Require!";
 		}elseif ($name==null) {
 			$_SESSION['name_error_msg']="User Name is Require!";
